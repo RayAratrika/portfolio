@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  background: black;
+  color: #00ff88;
+}
+
+.portfolio-wrapper {
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.social-links {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  color: #00ff88;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #33ffaa;
+}
+
+.section {
+  max-width: 800px;
+  margin: 3rem auto;
+}
+
+.section h2 {
+  font-size: 1.75rem;
+  border-bottom: 2px solid #00ff88;
+  padding-bottom: 0.5rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.projects {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  border: 1px solid #00ff88;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 0.875rem;
+  color: #00aa66;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 0.8s ease forwards;
+}
+
+.loading-screen {
+  background-color: black;
+  color: #00ff88;
+  font-family: monospace;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  font-size: 2rem;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-family: monospace;
+}
+
+.skills-table th,
+.skills-table td {
+  border: 1px solid #00ff88;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.skills-table th {
+  background-color: #003322;
+  color: #00ff88;
+}
+
+.skills-table tr:nth-child(even) {
+  background-color: #001f1a;
+}

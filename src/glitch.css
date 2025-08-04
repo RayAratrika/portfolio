@@ -1,0 +1,38 @@
+@keyframes glitchOut {
+  0% { transform: none; opacity: 1; }
+  20% { transform: skewX(5deg); opacity: 0.8; }
+  40% { transform: skewX(-5deg); opacity: 0.6; }
+  60% { transform: skewX(3deg); opacity: 0.4; }
+  80% { transform: skewX(-3deg); opacity: 0.2; }
+  100% { transform: none; opacity: 0; }
+}
+
+.glitch-out {
+  animation: glitchOut 0.8s ease forwards;
+}
+
+.loading-screen {
+  background-color: black;
+  color: #00ff88;
+  font-family: monospace;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-text {
+  font-size: 1.5rem;
+}
+
+.cursor-block {
+  display: inline-block;
+  width: 10px;
+  height: 1.2rem;
+  background-color: #00ff88;
+  margin-left: 4px;
+}
+
+.invisible {
+  background-color: transparent;
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "ShopOut",
+        "description": "Developed during Covid-19, a video conferencing shopping platform.",
+        "tasks": ["1. Developed the backend services in NodeJs including payments gateway, checkout features, several API endpoints and video conferencing features.", "2. Developed frontend pages like checkout, landing page and help center in react native.", "3. Published the android app onto Play Store for version releases.", "Led the backend team of interns."],
+        "techStack": "React-Native, Javascript, Express, MongoDB, JAVA SDK creation, PlayStore"
+    },
+    {
+        "title": "ChatterBox",
+        "description": "A secret-key based chat room where people can login to a private chat room based on the chat-room code",
+        "tasks": ["To ensure security, the codes were encrypted into 6 character strings", "To ensure that no 2 strings are repeated, mongoDB was used to keep record", "To ensure bi-directional communication websockets and event listerners were used"],
+        "techStack": "HTML/CSS, Javascript, socket.io, MySQL"
+    },
+    {
+        "title": "Harmonize",
+        "description": "An online radio much like iHeartRadio",
+        "tasks": ["iheartRadio APIs were used for artists, their songs and albums", "Play random songs like how a radio would", "Keep record of all the songs available in the radio using a DB"],
+        "techStack": "ReactJS, Javascript, MongoDB"
+    },
+    {
+        "title": "disco-bot",
+        "description": "A discord bot used for playing music and help with other music related queries",
+        "tasks": ["You can ask the bot to play any music via a link", "You can queue/dequeue/fast-forward/rewind songs.", "You can ask the bot to fetch you the lyrics to the current song."],
+        "techStack": "Python, Flask, Multithreading"
+    }
+]
