@@ -106,7 +106,7 @@ export default function Portfolio() {
                         </tr>
                         <tr>
                             <td>Tools & Technologies</td>
-                            <td>AWS (EC2, S3), Docker, RabbitMQ, Git, JIRA, Sumologic</td>
+                            <td>AWS (EC2, S3), RabbitMQ, Git, ChatGPT, Cursor, JIRA, Docker, Sumologic</td>
                         </tr>
                         <tr>
                             <td>Concepts</td>
@@ -147,3 +147,4 @@ export default function Portfolio() {
         </div>
     );
 }
+
